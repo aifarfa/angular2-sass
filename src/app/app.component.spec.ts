@@ -4,13 +4,15 @@ import { APP_BASE_HREF } from '@angular/common'
 import { appRoutes } from './app.routes'
 import { AppComponent } from './app.component'
 import { HomeComponent } from './home/home.component'
+import { NavComponent } from './nav/nav.component'
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
         AppComponent,
-        HomeComponent
+        HomeComponent,
+        NavComponent
       ],
       imports: [
         appRoutes

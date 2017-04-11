@@ -5,8 +5,9 @@ import { HomeComponent } from './home/home.component';
 import { HowtoComponent } from './howto/howto.component';
 
 const routes: Routes = [
-  { path:'', component: HomeComponent },
-  { path:'howto', component: HowtoComponent }
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  { path: 'home', component: HomeComponent },
+  { path: 'howto', component: HowtoComponent }
 ];
 
 export const appRoutes: ModuleWithProviders = RouterModule.forRoot(routes);

@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { appRoutes } from './app.routes';
 import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
+import { HowtoComponent } from './howto/howto.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NavComponent
+    NavComponent,
+    HowtoComponent
   ],
   imports: [
     BrowserModule,

@@ -5,6 +5,7 @@ import { appRoutes } from './app.routes'
 import { AppComponent } from './app.component'
 import { HomeComponent } from './home/home.component'
 import { NavComponent } from './nav/nav.component'
+import { HowtoComponent } from './howto/howto.component'
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -12,6 +13,7 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent,
         HomeComponent,
+        HowtoComponent,
         NavComponent
       ],
       imports: [

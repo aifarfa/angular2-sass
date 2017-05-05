@@ -8,13 +8,15 @@ import { appRoutes } from './app.routes';
 import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 import { HowtoComponent } from './howto/howto.component';
+import { ProductComponent } from './product/product.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavComponent,
-    HowtoComponent
+    HowtoComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,

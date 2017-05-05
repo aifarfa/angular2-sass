@@ -5,16 +5,18 @@ import { appRoutes } from './app.routes'
 import { AppComponent } from './app.component'
 import { HomeComponent } from './home/home.component'
 import { NavComponent } from './nav/nav.component'
+import { ProductComponent } from './product/product.component'
 import { HowtoComponent } from './howto/howto.component'
 
-xdescribe('AppComponent', () => {
+describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
         AppComponent,
         HomeComponent,
         HowtoComponent,
-        NavComponent
+        NavComponent,
+        ProductComponent
       ],
       imports: [
         appRoutes
